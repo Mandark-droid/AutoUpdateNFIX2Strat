@@ -1,0 +1,1 @@
+# AutoUpdateNFIX2Strat
