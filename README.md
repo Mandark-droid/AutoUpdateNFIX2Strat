@@ -3,7 +3,9 @@
 Clone the repo and update the following params as per your environment.
 
 BotPath="PATH TO BOT"
+
 bot_token="your-telegram-bot-token"
+
 chat_id="your-telegram-chat-id"
 
 
