@@ -18,7 +18,7 @@ localStrategy="$BASEDIR/NostalgiaForInfinity-main/NostalgiaForInfinityX2.py"
 BotStrategy="$BotPath/user_data/strategies/NostalgiaForInfinityX2.py"
 
 localversion=`grep 'v12.0' $localStrategy |cut -d '"' -f2`
-Botversion=`grep 'v12.0' $localStrategy |cut -d '"' -f2`
+Botversion=`grep 'v12.0' $BotStrategy |cut -d '"' -f2`
 
 
 if [[ "$localversion" =~ $Botversion ]]; then
